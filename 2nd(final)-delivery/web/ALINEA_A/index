@@ -1,0 +1,32 @@
+================================ALINEA_A=======================================
+
+"Inserir e remover Locais, Eventos de Emergência, Processos de Socorro, Meios e
+Entidades"
+--------------------------queries----------------------------------------------
+___________INSERIR DADOS_______________________________________________________
+
+	INSERT INTO [nome_tabela] VALUES ([parametros_tabela]);
+
+___________ELIMINAR DADOS_______________________________________________________
+
+	DELETE FROM [nome_tabela] WHERE [chave_tabela] = '[elemento_para_eliminar]';
+________________________________________________________________________________
+
+-----------------------------Indice---------------------------------------------
+
+1.alinea_a.php
+	user pretende inserir ou remover?
+2.inserir_remover.php
+	user pretende inserir ou remover em que tabela?
+3.inserir_remover_tabelas.php
+	user preenche formulario de insercao na tabela
+	3.1.concluir_pedido_inserir_remover.php
+		e feita e confimada a nova entrada na tabela escolhida
+	3.2 delete_from_table.php
+		e feita a remocao da entrada na tabela
+
+
+---------------------------FALTA-----------------------------------
+
+--> ver onde e preciso transaction
+--> ver restricoes integridade - evento_emergencia/processo socorro TRIGGER

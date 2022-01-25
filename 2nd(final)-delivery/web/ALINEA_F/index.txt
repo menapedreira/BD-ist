@@ -1,0 +1,13 @@
+===================================ALINEA_F==================================================
+"Listar os meios de socorro accionados em processos de socorro originados num dado local de incendio."
+
+---------------------------------query-----------------------------
+SELECT num_meio ,nome_entidade 
+FROM meio_socorro NATURAL JOIN acciona NATURAL JOIN evento_emergencia
+WHERE morada_local = :morada_local;
+-------------------INDICE-------------------
+
+1. form_morada.php
+	pergunta utilizador a morada do local
+2. show_tabela.php
+	apresentar resultados

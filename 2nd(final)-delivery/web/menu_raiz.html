@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/pt/thumb/e/ed/IST_Logo.png/200px-IST_Logo.png" />
+        <title>BD - Grupo 60</title>
+
+
+    <style>
+    .navbar {
+        margin: auto;
+        width: 60%;
+        overflow: hidden;
+        background-color: #ff8c00;
+        text-align:center;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 30px;
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+        text-align:center;
+        border-radius: 25px;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        border-radius: 25px;
+        text-align: center;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #ffa500;
+
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        border-radius: 5px;
+
+        height:30%;
+        width:10%;
+        background-color: #ffedcc;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    </style>
+    </head>
+    <body style="background-color:#ffc966;">
+
+        <div align = 'center' style="background-color:#cd3700; color:white;border-radius: 5px; ">
+            <h1 align = 'center'>---- Projecto Base de Dados ----</h1>
+            <img src="ist.png" alt="Instituto Superior Técnico" style="width:5%; height:5%;"  >
+            <h2 align = 'center'> - Entrega III - </h2>
+            <p align = 'center'>Grupo 60 <br> 86466 - Madalena Pedreira <br> 86496 - Pedro Custódio <br> 86508 - Rita Fernandes</p>
+
+        </div>
+
+        <div class="navbar" align = 'center'>
+            <div class="dropdown" align = 'center'>
+                <button class="dropbtn"><a href='ALINEA_A/alinea_a.php'>Alinea a)</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p>"Inserir e remover Locais, Eventos de Emergência, Processos de Socorro, Meios e
+Entidades"</p>
+                </div>
+            </div>
+            <div class="dropdown" align = 'center'>
+                <button class="dropbtn"><a href='ALINEA_B/alinea_b.php'>Alinea b)</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p>"Inserir, editar e remover Meios de Combate, Meios de Apoio, e Meios de Socorro"</p>
+                </div>
+            </div>
+            <div class="dropdown" align = 'center'>
+                <button class="dropbtn"><a href='ALINEA_C/c.php'>Alinea c)</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p>"Listar Processos de Socorro e Meios"</p>
+                </div>
+            </div>
+            <div class="dropdown" align = 'center'>
+                <button class="dropbtn"><a href='ALINEA_D/alinea_d.php'>Alinea d)</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p>"Associar Processos de Socorro a Meios e Processos de Socorro a Eventos de
+Emergência"</p>
+                </div>
+            </div>
+             <div class="dropdown" align = 'center'>
+                <button class="dropbtn"><a href='ALINEA_E/listMeiosPerSOSRequest.php'>Alinea e)</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p>"Listar os Meios accionados num processo de socorro"</p>
+                </div>
+            </div>
+            <div class="dropdown" align = 'center'>
+                <button class="dropbtn"><a href='ALINEA_F/form_morada.php'>Alinea f)</a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <p>"Listar os meios de Socorro acionados em processos de socorro originados num dado local de incêndio"</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </body>
+</html>
